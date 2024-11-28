@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello DevOps Basic CMC 2024.');
+  res.send('Hello DevOps Basic CMC 2025. Thanks');
 });
 
 app.get('/info', (req, res) => {
